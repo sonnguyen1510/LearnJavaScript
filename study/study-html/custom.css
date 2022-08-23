@@ -1,0 +1,49 @@
+.course-register {
+    color: rgb(190, 54, 5);
+    margin-top: 8;
+    margin-bottom: 8;
+    text-align: center;
+}
+
+.login-form {
+    border: 1px solid;
+    border-radius: 7;
+    margin-top: 15;
+    background-color: antiquewhite;
+}
+
+.course-link {
+    margin-top: 2;
+    margin-bottom: 10;
+}
+
+.course-title {
+    text-align: center;
+    font-family: fantasy;
+}
+
+.intro {
+    margin-bottom: 15;
+}
+
+h4 {
+    margin: 8;
+}
+
+.warning {
+    color: red;
+}
+
+.login-button {
+    text-align: center;
+    width: 100;
+    height: 20;
+    text-align: center;
+    margin-top: 10;
+    background-color: aqua;
+    border: 0px;
+}
+
+body {
+    background-color: rgb(243, 230, 155);
+}
