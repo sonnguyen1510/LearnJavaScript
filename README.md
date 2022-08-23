@@ -1,4 +1,5 @@
 # Learn JavaScript course
+Teacher : Jonas schmedtmann
 
 The course : https://www.udemy.com/course/the-complete-javascript-course/
 
