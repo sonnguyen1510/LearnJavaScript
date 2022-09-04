@@ -32,28 +32,18 @@ function Login() {
     }
 }
 
-function downloadImages() {
-    const urls = document.getElementById("link-image").value;
-
-    urls.map((url) => {
-        const splitUrl = url.split("/");
-        const filename = splitUrl[splitUrl.length - 1];
-        fetch(url)
-            .then((response) => {
-                response.arrayBuffer().then(function(buffer) {
-                    const url = window.URL.createObjectURL(new Blob([buffer]));
-                    const link = document.createElement("a");
-                    link.href = url;
-                    link.setAttribute("download", filename); //or any other extension
-                    document.body.appendChild(link);
-                    link.click();
-                    document.body.removeChild(link);
-                });
-            })
-            .catch((err) => {
-                console.log(err);
-            });
-    });
+function goToGuessNumberGame() {
+    window.location.href = "Guess-number/index.html";
 }
+
+document.querySelector(".modal-project").addEventListener("click", () => {
+    window.location.href = "Modal/index.html";
+});
+
+console.log(printForecast([12, 5, -5, 0, 4]));
+
+document.querySelector(".Pig-game-project").addEventListener("click", () => {
+    window.location.href = "Pig-game/index.html";
+});
 
 console.log(printForecast([12, 5, -5, 0, 4]));

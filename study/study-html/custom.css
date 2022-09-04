@@ -47,3 +47,12 @@ h4 {
 body {
     background-color: rgb(243, 230, 155);
 }
+
+.img {
+    height: 300;
+    width: 500;
+}
+
+.javacript-course {
+    margin-bottom: 10;
+}
